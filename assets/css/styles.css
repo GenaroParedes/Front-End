@@ -1,0 +1,34 @@
+*{
+    /*width: 95%;*/
+    /*margin: 0 5% 5% 5%; Al margen se le pueden pasar hasta 4 valores, es como el reloj, el primero a las 12(Deja un espacio arriba),
+     segundo a las 3(Deja espacio a la derecha), tercero a las 6 (Deja espacio abajo) y cuarto a las 9 (Deja espacio a la izquierda)*/
+     /*margin: 0 9%; El 0 se toma para arriba y abajo, y el 5% se toma para los costados.*/
+    margin: auto; /*con la palabra "auto" Acomoda automaticamente.*/
+    padding: 0.5%; /*Como se desplazan las cosas en la pagina. Tambien se pueden utilizar 4 valores como el margin.*/
+} /* Creamos un estilo para toda la pagina con el asterisco. */
+
+.titulo {
+    color:rgb(252, 2, 2)
+}
+
+.subtitulo {
+    color:aqua
+}
+/* Esto se podria hacer tambien en el mismo archivo de html con las etiquetas <style> </style> */
+
+.fondo {
+    /*background-color: aqua;*/
+    background-image: url(../img/Fondo.jfif);
+    background-color: #eb0c0c;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /*background-image: url(../img/Fondo.jfif);*/
+    /*background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrjiDYiMo6AzBAqx7pkS00gqnrntN-JPegNQ&usqp=CAU);*/
+}
+
+.card {
+    width: 18rem;
+}
